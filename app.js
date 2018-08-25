@@ -79,6 +79,6 @@ nodemailer.createTestAccount((err, account) => {
 })
 
 
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(80, 178.128.173.30, function(){
     console.log("server initiated");
 })
