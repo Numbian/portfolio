@@ -1,0 +1,48 @@
+
+body, html {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif, arial;
+  
+}
+
+.margines{
+padding-top: 15%;	
+}
+
+.card{
+   min-height: 1px;
+}
+
+
+.card-img-top{
+   min-height: 1px;
+   
+}
+
+.logo{
+	height: 45px;
+}
+
+.third{
+	width: 70%;
+}
+
+
+.card-footer{
+    
+    background-color: rgba(0,0,0,0);
+    border-top: 0px solid rgba(0,0,0,0);
+    padding-top: 0;
+
+}
+
+
+.card-deck .card {
+    margin-bottom: 15px;
+}
+
+.card-body {
+    padding-bottom: 0.8rem;
+}
+
+

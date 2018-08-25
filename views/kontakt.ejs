@@ -1,0 +1,31 @@
+<% include header %>
+
+<div class="container mt-5 mb-5 pt-4">
+<h4>Proszę zostawić dane kontaktowe w formularzu.</h4>
+
+<form action="/sendform" method="POST">
+  <div class="form-group">
+    <label for="exampleInputEmail1">E-mail</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+  </div>
+  <div class="form-group">
+    <label for="phone">Telefon</label>
+    <input type="tel" class="form-control" id="phone" name="tel">
+  </div>
+   <div class="form-group">
+    <label for="firma">Firma</label>
+    <input type="tel" class="form-control" id="firma" name="firma">
+  </div>
+  <div class="form-group">
+    <label for="info">Wiadomość</label>
+   <textarea class="form-control" id="info" rows="3" name="info"></textarea>
+  </div>
+  
+  
+  <button> Wyślij</button>
+
+
+
+</div>
+
+<% include footer %>
