@@ -46,3 +46,32 @@ padding-top: 15%;
 }
 
 
+
+
+
+
+.card:hover {
+   animation: borderAnim 1s forwards, shadowAnim 1s forwards;  
+
+}
+
+@keyframes borderAnim {
+  from {
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+  to {
+     border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes shadowAnim {
+  from {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  to {
+    -webkit-box-shadow: 3px 3px 20px -5px rgba(0,0,0,0.61);
+    -moz-box-shadow: 3px 3px 20px -5px rgba(0,0,0,0.61);
+    box-shadow: 3px 3px 20px -5px rgba(0,0,0,0.61);
+  }
+}

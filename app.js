@@ -1,17 +1,15 @@
+﻿
 var express = require('express')
 var app = express()
 var bodyParser = require('body-parser')
 /////////////////////////////////////////////////////
 'use strict';
 const nodemailer = require('nodemailer');
-
-
 /////////////////////////////////////////////////////
-
-
 
 app.set("view engine", "ejs");
 app.use(express.static("CSS"));
+app.use(express.static("JS"));
 app.use(express.static("img"));
 app.use(express.static("files"));
 app.use(bodyParser.urlencoded({extended:true}))
@@ -79,6 +77,7 @@ nodemailer.createTestAccount((err, account) => {
 })
 
 
-app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("server initiated");
+
+app.listen(80, function(){
+    console.log("server initiated on port 80");
 })
