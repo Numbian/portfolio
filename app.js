@@ -77,6 +77,4 @@ nodemailer.createTestAccount((err, account) => {
 /////////////////////////////////////////////////////
  res.redirect("/dziekuje");
 })
-
-
-app.listen(80, 'localhost');
+app.listen(80);
