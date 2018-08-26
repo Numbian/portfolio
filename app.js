@@ -79,6 +79,5 @@ nodemailer.createTestAccount((err, account) => {
 })
 
 
-app.listen(80, function(){
-    console.log("server initiated");
+app.listen(80,'localhost');
 })
