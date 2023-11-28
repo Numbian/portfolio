@@ -48,8 +48,8 @@ nodemailer.createTestAccount((err, account) => {
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-            user: "stmpservermain@gmail.com", // generated ethereal user
-            pass: "Kurwamac1" // generated ethereal password
+            user: "", // generated ethereal user
+            pass: "" // generated ethereal password
         }
     });
     // setup email data with unicode symbols
